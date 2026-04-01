@@ -10,7 +10,10 @@ app.use(express.json());
 // ================= ROLE MIDDLEWARE =================
 
 const checkRole = (roles) => {
+ 
+
   return (req, res, next) => {
+     console.log("Checking roles:", req.headers.role);
     const userRole = req.headers.role;
 
     if (!userRole || !roles.includes(userRole)) {
