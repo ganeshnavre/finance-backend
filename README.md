@@ -14,6 +14,7 @@ Different users can interact with financial records based on their roles such as
 - Role-based access control
 - Basic validation and error handling
 - Update and delete records supported
+- Supports update and delete operations
 ---
 
 ## 🛠 Tech Stack
